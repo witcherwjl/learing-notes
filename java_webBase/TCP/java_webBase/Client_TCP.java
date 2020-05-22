@@ -11,7 +11,7 @@ public class Client_TCP {
 
 	public static void main(String[] args) {
 		String ip = "127.0.0.1";
-		int port = 6666;
+		int port = 7777;
 		Socket socket;
 		try {
 			socket = new Socket(ip, port);
