@@ -1,4 +1,6 @@
 package 字符串;
+import java.io.BufferedInputStream;
+
 /*
 当通过语句str.intern()调用intern()方法后，
 JVM 就会在当前类的常量池中查找是否存在与str等值的String，
